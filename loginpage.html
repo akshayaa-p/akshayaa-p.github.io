@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SHE-LOgin</title>
+	<link rel="shortcut icon" type="image/png"  href="customize/newshe.png">
+	<link rel="icon" href="images/slogo.png" ></link>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/lstyle.css">
+	  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="bg">
+	<a href="index.html"class="home">Home</a>
+	<div class="loginbox">
+	<img src="customize/avatar4.png" class="avatar">
+	<form action="process.php" method="POST">
+		<h1> Get Started!! </h1>
+			<p>Username</p>
+			<i class="fa fa-user fa-1x cust" aria-hidden="true"></i>
+			<input type="text" name="uname" id="uname" placeholder="Enter Username">
+			<p>Password</p>
+			<i class="fa fa-lock fa-1x cust" aria-hidden="true"></i>
+			<i class="fa fa-eye fa-1x cu" id="eye" aria-hidden="true"></i>
+			<input type="password" name="pass" id="pwd" placeholder="Enter Password">
+			<input type="submit" class="loginbutton" value="Login">
+			<a href="#" style="color:white;font-weight:bold;font-size:15px">Lost your password?</a><br>
+			<a href="register.html" style="color:white;font-weight:bold;font-size:15px">Don't have an account?</a>
+		</form>
+	</div>
+</div>
+	<script>
+		var pwd = document.getElementById('pwd');
+		var eye = document.getElementById('eye');
+		eye.addEventListener('click',togglePass);
+		function togglePass()
+		{
+			eye.classList.toggle('active');
+			(pwd.type == 'password') ? pwd.type = 'text' : pwd.type = 'password';
+			}
+	</script>
+
+</body>
+
+</html>
