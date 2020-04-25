@@ -1,0 +1,37 @@
+body{
+	font-family: sans-serif;
+	height: 110vh;
+	background: url('../home images/wood.jpg');
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	text-align: center;
+	color: #FF5722;
+	margin: 30px 0 50px;
+}
+.gallery{
+	margin-left: 50px;
+	}
+.gallery img{
+	border: none;
+	width: 230px;
+	height:auto;
+	padding: 5px;
+	transition: 1s;
+	filter: grayscale(100%);
+}
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+
+
+}
+
+i{
+	padding: 0px 8px;
+}
+.arrow{position:fixed;bottom:10px;left:6px;}
+
+.fa-angle-double-up{border-radius:50%;background:rgba(0,0,0,0.4);padding:5px 13px ;}
+.fa-angle-double-up:hover{background:rgba(0,0,0,0.8)}

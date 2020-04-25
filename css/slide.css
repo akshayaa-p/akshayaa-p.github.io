@@ -1,0 +1,84 @@
+body{
+	margin:0;
+	font-family: sans-serif;
+}
+*{
+	box-sizing: border-box;
+}
+
+.home{
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.home .slide{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+	display: none;
+	padding: 0 15px;
+	animation: slide 2s ease;
+}
+.home .slide.active{
+	display: flex;
+}
+@keyframes slide{
+	0%{
+		transform: scale(1.1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+
+.home .controls .prev,
+.home .controls .next{
+	border-radius:50%;background:rgba(0,0,0,0.1);padding:2px 7px 2px 5px ;
+	position: absolute;
+	z-index:2;
+	top:50%;
+	height: 40px;
+	width: 40px;
+	margin-top: -20px;
+	color: #b3b3b3;
+
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	cursor:pointer;
+	transition: all .5s ease;
+	font-size:35px;
+}
+.home .controls .prev:hover{
+	background-color:rgba(0,0,0,0.9);
+	color:white;
+}
+.home .controls .next:hover{
+	background-color: rgba(0,0,0,0.9);
+	color:white;
+}
+.home .controls .prev{
+	left:10px;
+}
+
+.home .controls .next{
+	right:10px;
+}
+.navbar .o1{
+	margin-left: -10px;
+	display: block;
+	height: 30px;
+	width: 90px;
+	margin-left: 10px;
+	text-align: center;
+}
+.o1 i{
+	padding: 0px 8px;
+}

@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*#mid{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	/*background: black;
+
+}
+.bar{
+	width: 12px;
+	height: 120px;
+	background: white;
+	display: inline-block;
+	transform-origin: bottom center;
+	animation: loading 1.5s ease-in-out infinite;
+
+}
+
+.bar1{
+	animation-delay:0.1s;
+}
+
+.bar2{
+	animation-delay:0.2s;
+}
+
+.bar3{
+	animation-delay:0.3s;
+}
+
+.bar4{
+	animation-delay:0.4s;
+}
+
+.bar5{
+	animation-delay:0.5s;
+}
+
+.bar6{
+	animation-delay:0.6s;
+}
+
+.bar7{
+	animation-delay:0.7s;
+}
+
+.bar8{
+	animation-delay:0.8s;
+}
+
+@keyframes loading{
+	0%{
+		transform: scaleY(0.1);
+		background: #fff;
+
+	}
+	50%{
+
+		transform: scaleY(1);
+		background: #F2AA4CFF;
+
+	}
+	100%{
+
+		transform: scaleY(0.1);
+		background: transparent;
+	}
+}*/
+
+body{
+	background-image: url('../images/reg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family:'Baloo Chettan 2';
+	height:100%;
+
+}
+html{height:800px;}
+/*.loader{
+	position: absolute;
+	display: flex;
+}
+.loader span{
+	width: 40px;
+	height: 300px;
+	margin:0 5px;
+	background: #fff;
+	animation: loader 1.4s linear infinite;
+}
+.loader span:nth-child(1)
+{
+	animation-delay: 0s;
+}
+.loader span:nth-child(2)
+{
+	animation-delay: 0.2s;
+}
+.loader span:nth-child(3)
+{
+	animation-delay: 0.4s;
+}
+.loader span:nth-child(4)
+{
+	animation-delay: 0.6s;
+}
+.loader span:nth-child(5)
+{
+	animation-delay: 0.8s;
+}
+.loader span:nth-child(6)
+{
+	animation-delay: 1s;
+}
+.loader span:nth-child(7)
+{
+	animation-delay: 1.2s;
+}
+@keyframes loader{
+	0%{
+		box-shadow: 0 0 0 rgba(0,0,0,.5);
+		capacity: 0;
+		transform: translateX(-50px) scale(1);
+	}
+	50%{
+		box-shadow: 0 0 0 rgba(0,0,0,.5);
+		capacity: 0;
+		transform: translateX(0px) scale(1.2);
+	}
+	0%{
+		box-shadow: 0 0 0 rgba(0,0,0,.5);
+		capacity: 0;
+		transform: translateX(50px) scale(1);
+	}
+}*/
+.home{
+	margin-bottom: 4px;gfont-family:'Baloo Chettan 2';padding:3px; position: absolute;margin-top:20px;margin-left: 40%;color:white;font-size: 1.1rem;text-decoration: none;
+}
+.home:hover{text-decoration: none;background:rgba(0,0,0,0.6);border-radius:4px;ont-size:1.2 rem;color:white;}
+.register h2{
+	/*text-align: center;*/
+	/*padding: -20px;*/
+	font-weight: 5;
+
+	margin-left: 40px;
+	top: -3px;
+}
+.register a{
+	font-color: navy;
+}
+.register{
+	/*border: 3px solid #FF1493;*/
+	/*width: 320px;
+	height: 420px;*/
+	margin-top:60px;
+	margin-bottom: 20px;
+	width: 315px;
+	height: 600px;
+	/*background: rgba(0,0,0,0.7);*/
+	background: rgba(0,0,0,0.9);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 30px 30px;
+	border-radius: 45px;
+	font-family: 'Baloo Chettan 2';
+
+}
+
+#register{
+	margin-left:20px;
+
+}
+
+label{
+	color: white;
+
+	font-size: 12px;
+
+}
+
+#name{
+	width: 250px;
+	border-bottom:2px solid #ff4d4d;
+	outline: 0;
+	padding: 4px;
+	background-color:inherit;
+}
+#pwd{
+	width: 200px;
+	border-bottom:2px solid #ff4d4d;
+	outline: 0;
+	padding: 4px;
+	background-color:inherit;
+}
+
+#sub{
+	margin:0 auto 0 auto;display: block;
+	position:relative;top:-10px;
+	width: 100px;
+	padding: 7px;
+	font-size: 16px;
+  color:black;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	background-color: #ff4d4d;
+
+}
+@media only screen and (max-width: 400px) {
+  /* For mobile phones: */
+  .register {
+    width:240px;
+		height:620px;
+		margin-top:70px;
+  }
+	#pwd,#name{width:150px;}
+}
+#sub:hover{background: rgba(255, 77, 77,0.5)}
+#ph{background-color:inherit;outline: none;border: none;color: white;}
+option{color:black}
+.cu{
+	position:static;
+	display: inline;
+	left:30px;
+	top: -26px;
+	cursor: pointer;
+	color: #fff;
+
+}
+.cu.active{
+	color: #ff4d4d;
+
+}
+
+a{
+	color: white;
+
+	margin-left: 70px;
+
+}
+
+input{
+	margin-bottom:10px;
+	border:none;
+	outline: none;
+	border-radius:2px;
+	background: rgba(0,0,0,1);
+	color: white;
+	width:50px
+
+}
+}
