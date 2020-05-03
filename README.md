@@ -1,4 +1,4 @@
-<h>SHE GCEK</h>
+<h1>SHE GCEK</h1>
 <ul>
   <li>This website was made as a part of SHE-Website building competiton.</li><br />
   <li>Atom was used as the platform for development.</li><br />
