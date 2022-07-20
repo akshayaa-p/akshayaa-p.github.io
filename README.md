@@ -4,11 +4,13 @@
   <li>Atom was used as the platform for development.</li><br />
 <li>Designed using HTML,CSS and JavaScript</li>
  </ul> 
+ <br>
+<br>
 <a href="https://akshayaa-p.github.io/">Visit Website</a>
 
 <br>
 <br>
 <br>
-<br>
+
 
 ![SHECODERS-WEBSITE](https://user-images.githubusercontent.com/47331096/180026614-4f0c051a-61c1-4ab1-a869-60e985911be9.png)
