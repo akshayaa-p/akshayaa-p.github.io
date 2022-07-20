@@ -5,11 +5,11 @@
 <li>Designed using HTML,CSS and JavaScript</li>
  </ul> 
  <br>
-<br>
+
 <a href="https://akshayaa-p.github.io/">Visit Website</a>
 
 <br>
-<br>
+
 <br>
 
 
